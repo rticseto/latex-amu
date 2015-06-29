@@ -1,32 +1,152 @@
-\section{Matériel et méthodes}
-\subsection{Modèle animal}
-\lipsum[1]
-\subsection{Traitement expérimental}
-\subsubsection{Hypergravité}
-\label{hypergravite} % on peut mettre systématiquement un \label après chaque titre de partie au cas où un /ref{} serait nécessaire
-L'hypergravité consiste à augmenter la force du vecteur gravitaire en lui sur-imposant la force centrifuge. En effet, la force centrifuge induite par la rotation se surimpose à la gravité terrestre ce qui permet d'avoir une force résultante dépendante de la vitesse de rotation. On utilise pour cela des centrifugeuses qui sont des carrousels équipés de nacelles suspendues à des axes libres permettant à la force résultante d'être perpendiculaire au plancher de la nacelle et ainsi obtenir une \og gravité \fg{} dont la force est supérieure à la gravité terrestre tout en maintenant, pour les individus expérimentaux, l'orientation \og naturelle \fg{} de celle-ci.
-\lipsum[1-5]
-Une première note de fin de document\endnote{Première note de fin de document.} et une seconde\endnote{Deuxième note de fin de document.} et ... \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} \endnote{... note de fin de document.} Quisque ullamcorper placerat ipsum.\endnote{\lipsum[3]}.
-\subsubsection{La centrifugeuse}
-Les caractéristiques techniques de la centrifugeuse\index{centrifugeuse} ont été décrites dans un article de \cite{jamon_ground-based_2008} et dans la partie \ref{hypergravite}. Brièvement, la centrifugeuse (Figure~\ref{photo_centrifugeuse}) est de grand diamètre (jusqu'à 3,6~m en rotation). Pour limiter les vibrations, la centrifugeuse repose sur des dispositifs anti-vibrations. Le bruit produit par la centrifugeuse est faible. A un mètre de distance, le niveau sonore n'est que de 58~dB contre 52~dB si la centrifugeuse est arrêtée. Les nacelles sont sur des axes libres et chacune peut contenir trois cages de type standard (364x206x131 mm) avec 4 souris par cage, soit un total de 48 souris. La centrifugeuse est équipée de caméras infra-rouge couplées à un système de vidéo-surveillance accessible sur internet. Cela nous permet de contrôler les niveaux d'eau et de nourriture ainsi que de conduire des études de l'activité des individus expérimentaux à distance, de jour comme de nuit. La quantité d'eau et de nourriture disponible par cage permet de faire fonctionner la centrifugeuse 3 semaines sans interruption. Les animaux ont à disposition 400~g de nourriture et 500~ml d'eau, mais la consommation de nourriture sur cette période est en moyenne de 209~g ($\pm$14), et la consommation d'eau de 258 ml ($\pm$21) pour une cage de 4 souris. 
-\begin{figure}[h!tbp]
-\vspace{0.5cm}
-\setcapindent{2em}
-  \centering
-  \includegraphics[width=0.7\textwidth]{photo_centrifugeuse}
-  \caption[Photographie de la centrifugeuse]{Photographie de la centrifugeuse utilisée.}
-  \label{photo_centrifugeuse}
-\end{figure}
-\lipsum[1]
-\section{Deuxième section de la deuxième partie}
-\lipsum[2]
-\subsection{Première sous-section de la deuxième section de la deuxième partie}
-\lipsum[4]
-\subsection[Sous-sous-sous-partie 2]{Deuxième sous-section de la deuxième section de la deuxième partie} % entre [] pour affichage dans la TOC
-\lipsum[4]Une note de bas de page\footnote{première note de bas de page} et une seconde\footnote{deuxième note de bas de page}.
-\subsubsection{Ce titre de section ne s'affiche pas dans la TOC : tocdepth=2}
-Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi \parencite{zohdy_mapping_2012}. \lipsum[3] % citation entre parenthèses et tous les auteurs
-\paragraph{Ce titre de section n'est pas numéroté : secnumdepth=3}~~\\ % "~~\\" fait le saut de ligne après le titre de 'paragraph'
+\section{CERN and the LHC}
+\subsection{The European Organisation for Nuclear Research CERN}
+CERN is the European Organisation for Nuclear Research. The name is derived from the french
+acronym for Conseil Europeen pour la Recherche Nucleaire, or European Council for Nuclear
+Research.
 
-% ce saut de ligne dans le code indente 'paragraph'
-\lipsum[3]
+\subsection{The LHC Machine}
+The Large Hadron Collider \cite{LHC} at CERN is the most power tool for particle physics studies. 
+The CERN accelerator complex, shown in Figure~\ref{CERNcomplex}, comprises the Linear
+Accelerator, LINAC, the Proton Synchrotron, PS, and the Super Proton Synchrotron,
+	SPS, which form a chain of successively energetic accelerators. The energies reached by the protons at the end of each accelerator are:
+\begin{itemize}
+	\item	Proton LINear ACcelerator (LINAC): Up to 50 MeV
+	\item Proton Synchrotron Booster (PSB) : 1.4 GeV
+	\item Proton Synchrotron (PS) : 26 GeV
+ 	\item Super Proton Synchrotron (SPS): 450 GeV
+	\item LHC: 7 TeV
+\end{itemize}
+The accelerator tunnel comprises eight straight sections and eight arcs, as shown in .
+The tunnel contains the two rings which produce two counter-rotating particle beams colliding 
+at Points 1, 2, 5 and 8, where the ATLAS, ALICE, CMS and LHCb experiments are located, respectively. 
+The beam is accelerated using the Radio-Frequency (RF) cavities located in the straight section at Point 4, while Points 3 and 7 contain beam
+collimation systems which shape and clean the beam. The straight section in Point 6 is used as the beam dump, where the beams are removed from 
+the LHC and ”dumped” into a graphite target to dissipate the beam’s energy.
+
+%four interaction points. The four main detectors are built around these points.
+
+The arcs are built using a total of 1232 superconducting dipole magnets which keep the beams
+in the (nearly) circular orbit. Each of the dipole magnets is capable of generating a magnetic field
+of up to 8 T. Additionally, there are 392 quadrapole magnets, located in the straight sections, which
+serve to focus the beam.
+
+\begin{figure}[htbp]
+%\vspace{0.5cm}
+%\setcapindent{2em}
+  \centering
+	\includegraphics[width=0.9\textwidth]{cern_atlas/Cern-Accelerator-Complex.jpg}
+	\caption[CERN accelerator complex]{CERN accelerator complex}
+	\label{CERNcomplex}
+\end{figure}
+\subsubsection{Accelerator and Energy}
+Figure~\ref{lhc-dipole}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{cern_atlas/lhc-dipole.jpg}
+  \caption[lhc-dipole]{lhc-dipole}
+  \label{lhc-dipole}
+\end{figure}
+\subsubsection{The Experiments on the LHC}
+The experiments installed on the LHC ring are briefly decribed below:
+Figure~\ref{lhc-exp}
+\\
+{\bf ALICE} {\it (A Large Ion Collider Experiment)} \cite{ALICE}:
+\\
+{\bf ATLAS} {\it (A Toroidal LHC Apparatus)} \cite{ATLAS}:
+\\
+{\bf CMS} {\it (Compact Muon Solenoid)} \cite{CMS}:
+\\
+{\bf LHCb} {\it (Large Hadron Collider beauty)} \cite{LHCb}:
+\\
+
+{\bf LHCf} \cite{LHCf} :
+The Large Hadron Collider forward experiment is the smallest of all the LHC experiments. Its aim is to study the particles generated in the forward region of collisions,	to verify hadronic models at very high energy for the understanding of ultra-high energetic cosmic rays. It consists of two small detectors, 140 m on either side of the ATLAS intersection point.
+\\
+
+{\bf TOTEM} \cite{TOTEM}:
+The TOTEM experiment measures the total pp cross section and study
+elastic scattering and diffractive dissociation at the LHC. TOTEM also aims to measure
+the luminosity at the CMS interaction point where it is based. It covers the
+very forward region in the pseudo-rapidity range.
+\\
+
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{cern_atlas/lhc-schematic.jpg}
+  \caption[lhc-exp]{lhc-exp}
+  \label{lhc-exp}
+\end{figure}
+
+\newpage
+\section{The ATLAS Detector}
+Figure~\ref{ATLAS}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.9\textwidth]{cern_atlas/ATLAS.jpg}
+  \caption[ATLAS]{ATLAS}
+  \label{ATLAS}
+\end{figure}
+
+
+\subsection{The Inner detector}
+Figure~\ref{InnerDetector}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{cern_atlas/InnerDetector.jpg}
+
+  \caption[ATLAS]{ATLAS}
+  \label{InnerDetector}
+\end{figure}
+
+
+Figure~\ref{pixel}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.65\textwidth]{cern_atlas/pixel_01.png}
+	%\includegraphics[width=0.48\textwidth]{cern_atlas/pixel_02.png}
+  \caption[ATLAS]{ATLAS}
+  \label{pixel}
+\end{figure}
+
+
+\subsubsection{The Insertable B-Layer (IBL)}
+\subsubsection{The silicon Pixel detector}
+\subsubsection{The SemiConductor Tracker (SCT)}
+\subsubsection{The Transition Radiation Tracker (TRT)}
+
+\subsection{The calorimeters}
+Figure~\ref{calo}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.8\textwidth]{cern_atlas/calorimeter.jpg}
+	%\includegraphics[width=0.48\textwidth]{cern_atlas/pixel_02.png}
+  \caption[ATLAS]{ATLAS}
+  \label{calo}
+\end{figure}
+
+
+\subsubsection{The electromagnetic calorimeter}
+Figure~\ref{caloLAr}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.48\textwidth]{cern_atlas/cellLAr.jpg}
+	\includegraphics[width=0.48\textwidth]{cern_atlas/larg_principle.png}
+  \caption[ATLAS]{ATLAS}
+  \label{caloLAr}
+\end{figure}
+
+\subsubsection{Hadronic calorimeter}
+
+
+\subsection{The muon spectrometer}
+Figure~\ref{MuonSys}
+\begin{figure}[htbp]
+  \centering
+  \includegraphics[width=0.7\textwidth]{cern_atlas/MuonSystem.jpg}
+  \caption[ATLAS]{ATLAS}
+  \label{MuonSys}
+\end{figure}
+
+\section{The ATLAS trigger system}
+\section{}
+
