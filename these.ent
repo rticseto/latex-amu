@@ -1,0 +1,92 @@
+\@doanenote {1}{1}
+macro:->Première
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {2}{2}
+macro:->Deuxième
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {3}{3}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {4}{4}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {5}{5}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {6}{6}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {7}{7}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {8}{8}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {9}{9}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {10}{10}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {11}{11}
+macro:->...
+note
+de
+fin
+de
+document.
+\@endanenote 
+\@doanenote {12}{12}
+macro:->\lipsum
+[3]
+\@endanenote 
